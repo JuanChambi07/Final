@@ -44,6 +44,8 @@ public class Main {
 
 
         System.out.println(fase.getDescripcionEtapa());
+
+        System.out.println("GRUPO A:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -52,6 +54,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo1().get(i).getNombre(), fase.getGrupo1().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO B:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -60,6 +63,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo2().get(i).getNombre(), fase.getGrupo2().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO C:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -68,6 +72,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo3().get(i).getNombre(), fase.getGrupo3().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO D:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -76,6 +81,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo4().get(i).getNombre(), fase.getGrupo4().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO E:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -84,6 +90,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo5().get(i).getNombre(), fase.getGrupo5().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO F:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -92,6 +99,7 @@ public class Main {
                 } else if (calcular.empate(fase.getGrupo6().get(i).getNombre(), fase.getGrupo6().get(j).getNombre())) ;
             }
         }
+        System.out.println("GRUPO G:");
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
@@ -99,7 +107,9 @@ public class Main {
                 if (calcular.ganoLocal(fase.getGrupo7().get(i).getNombre(), fase.getGrupo7().get(j).getNombre())) {
                 } else if (calcular.empate(fase.getGrupo7().get(i).getNombre(), fase.getGrupo7().get(j).getNombre())) ;
             }
-        } for (int i = 0; i < 3; i++) {
+
+        }System.out.println("GRUPO H:");
+        for (int i = 0; i < 3; i++) {
             for (int j = 1; j <= 3; j++) {
 
                 partidosFase.add(new Partido(new Date(04 / 7 / 10 + i), fase.getGrupo8().get(i), fase.getGrupo8().get(j)));
